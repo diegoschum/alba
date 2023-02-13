@@ -5,14 +5,44 @@
     <style type="text/css">
       body {
         background-color: #f2f2f2;
+        text-align: center;
       }
       
       .giphy-embed {
         margin: 50px auto;
       }
+      
+      .message {
+        font-size: 20px;
+        margin-top: 20px;
+        font-family: Arial, sans-serif;
+        text-align: center;
+      }
+      
+      .rainbow {
+        background-image: linear-gradient(to right,
+                                           #ff0000, 
+                                           #ffa500, 
+                                           #ffff00, 
+                                           #00ff00, 
+                                           #007fff, 
+                                           #0000ff, 
+                                           #7f00ff);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -ms-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-text-fill-color: transparent;
+        -ms-text-fill-color: transparent;
+        text-fill-color: transparent;
+      }
     </style>
   </head>
   <body>
     <iframe src="https://giphy.com/embed/wQvafCo0mg7x6" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+    <div class="message">
+      <span class="rainbow">Have a good day, Brian</span>
+    </div>
   </body>
 </html>
