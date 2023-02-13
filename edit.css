@@ -1,7 +1,10 @@
-body {
-  background-color: #f2f2f2;
-}
+/* MAKE CSS TO COMPLEMENT GIFS */
 
-.giphy-embed {
-  margin: 50px auto;
+img {
+    border: 0;
+}
+/*make gif huge*/
+#GIF {
+    width: 100%;
+    height: 100%;
 }
